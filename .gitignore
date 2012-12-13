@@ -31,5 +31,21 @@ nosetests.xml
 
 # Mr Developer
 .mr.developer.cfg
+
+############################
+#Eclipse Specific GitIgnore#
+############################
+*.pydevproject
 .project
-.pydevproject
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
