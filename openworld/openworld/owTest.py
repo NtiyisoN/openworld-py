@@ -10,6 +10,7 @@ def test():
 
     dtList = owc.getDataTypes()  
     for dt in dtList:
+        print '-----------------'
         print 'creator: ' + dt.creator
         print 'isPublic: ' + dt.isPublic
         print 'dataName: ' + dt.dataName
