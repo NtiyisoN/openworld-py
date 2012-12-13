@@ -3,10 +3,10 @@ Created on Dec 12, 2012
 
 @author: zserre
 '''
-import owClient
+import openworld
 
 def test():
-    owc = owClient.OWClient()
+    owc = openworld.OWClient()
 
     dtList = owc.getDataTypes()  
     for dt in dtList:
